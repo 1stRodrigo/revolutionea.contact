@@ -1,4 +1,4 @@
-document.querySelector('#submit').addEventListener('click', function() {
+document.querySelector('#submit').addEventListener('click', 'touchstart', function() {
     let cliente = document.querySelector('#nomefull').value;
     let telefone = document.querySelector('#telefone').value;
     let endereco = document.querySelector('#address').value;
