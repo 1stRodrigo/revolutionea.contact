@@ -40,7 +40,9 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: gray;
 }
+
 /*==========HEADER==========*/
 header {
     margin: 0 auto;
