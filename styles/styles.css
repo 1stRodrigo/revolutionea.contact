@@ -1,0 +1,74 @@
+* ---------------------------------------------- */
+/* BASIC SETUP */
+/* ---------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+}
+
+
+/* SCROLLBAR */
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #27ae60; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #219251; 
+}
+
+
+/*==========BODY==========*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/*==========HEADER==========*/
+header {
+    margin: 0 auto;
+}
+/*==========SECTION==========*/
+section {
+    margin: 0 auto;
+    width: 60%;
+}
+/*==========FORM==========*/
+form {
+
+}
+fieldset {
+    display: grid;
+    gap: .5rem;
+    
+}
+
+select {
+    font-size: 1rem;
+}
+
+button {
+    height:2.5rem;
+}
+
+/*==========FOOTER==========*/
+footer {
+    margin: 0 auto;
+}
