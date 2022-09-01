@@ -130,6 +130,11 @@ button:hover {
     font-size: 1.2em;
     background-color: #00c3ff;
 }
+/*==========ASIDE==========*/
+.div_aside {
+    display: flex;
+    justify-content: center;
+}
 
 /*==========FOOTER==========*/
 footer {
@@ -141,8 +146,16 @@ footer {
     width: 100%;
 }
 
+.dev{
+    display: flex;
+    justify-content: center;
+}
+
 p {
     color: #ffff;
+    display: flex;
+    gap: .3rem;
+    place-items: center;
 }
 
 a {
@@ -152,6 +165,8 @@ a {
     border-radius: 15px;
     text-decoration: none;
     color: inherit;
+    display: flex;
+    align-items: center;
     
 }
 
