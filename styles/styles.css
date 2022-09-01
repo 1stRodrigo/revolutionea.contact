@@ -57,7 +57,7 @@ body {
 
 .bg {
     margin: 0;
- background-image: url("/Projetos/Trabalhos/RevolutionEA/img/background/david-von.jpg");
+ background-image: url("../img/background/david-von.jpg");
  background-size: cover;
  background-repeat: no-repeat;
  background-position: center;
