@@ -1,3 +1,16 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800&display=swap');
+/*===  font-family: 'Montserrat', sans-serif;  ===*/
+
+:root {
+    --corbackground: #000000b3;
+    --fontpadrao: 'Montserrat', sans-serif;
+}
+
+
+
 * ---------------------------------------------- */
 /* BASIC SETUP */
 /* ---------------------------------------------- */
@@ -30,7 +43,7 @@
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #219251; 
+    background: #f7f7f7; 
 }
 
 
@@ -40,12 +53,38 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: gray;
+}
+
+.bg {
+    margin: 0;
+ background-image: url("/Projetos/Trabalhos/RevolutionEA/img/background/david-von.jpg");
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-attachment: fixed;
 }
 
 /*==========HEADER==========*/
 header {
     margin: 0 auto;
+    text-align: center;
+    font-family: var(--fontpadrao);
+}
+
+
+.div_header h1 {
+    text-align: center;
+    width: 85%;
+    margin: .5em auto;
+    font-size: 1.5em;
+}
+
+h1 {
+    padding: .5rem;
+    background-color: #ffff;
+    border: 1px solid white;
+    border-radius: 3px;
+    box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.094);
 }
 /*==========SECTION==========*/
 section {
@@ -57,9 +96,20 @@ form {
 
 }
 fieldset {
+    font-family: var(--fontpadrao);
+    color: #ffff;
     display: grid;
     gap: .5rem;
-    
+    background-color: #000000b3;   
+}
+label{
+    font-weight: 500;
+}
+legend {
+    background-color: #04acdff5;
+    font-weight: 700;
+    font-size: 1.3em;
+    padding: .5rem;
 }
 
 select {
@@ -67,10 +117,45 @@ select {
 }
 
 button {
-    height:2.5rem;
+    font-family: var(--fontpadrao);
+    font-weight: 700;
+    background-color: #04acdf;
+    color: #ffff;
+    font-size: 1.1em;
+    border: 5px solid #04acdf;
+}
+
+button:hover {
+    transition: .3s;
+    font-size: 1.2em;
+    background-color: #00c3ff;
 }
 
 /*==========FOOTER==========*/
 footer {
-    margin: 0 auto;
+    text-align: center;
+    margin: 4rem auto 0;
+    font-family: var(--fontpadrao);
+    font-weight: 500;
+    background-color: #000000c4;
+    width: 100%;
+}
+
+p {
+    color: #ffff;
+}
+
+a {
+    padding: .1rem .4rem;
+    background-color: #04acdf;
+    border: 1px solid #04acdf;
+    border-radius: 15px;
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+a:hover {
+    transition: .3s;
+    padding: .3rem 1rem;
 }
