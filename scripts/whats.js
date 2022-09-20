@@ -21,7 +21,7 @@ document.querySelector('#submit').addEventListener('click', function() {
     console.log(opcoes)
     
    let url = "https://api.whatsapp.com/send?phone=5519987164384&text=Bem vindo a Revolution -->> %0A Qual é o seu nome? %0A " + cliente + " %0A Qual o seu telefone ?%0A" + 
-   telefone + "%0A Qual o seu endereço? %0A " + endereco + " %0A Quais serviços você precisa? %0A%0D%0D "+ opcoes +""; 
+   telefone + "%0A Qual o seu endereço? %0A " + endereco + " %0A Quais serviços você precisa? %0A%0A %0A %0A "+ opcoes +""; 
    
    window.open(url);
 });
