@@ -21,7 +21,7 @@
         </div>
     </header>
     <section>
-        <div class="div_section">
+        <div class="div_section" id="seção">
             <form action="">
                 <fieldset form="whats_orçamento" name="form_orçamento">
                     <legend>Solicite já o seu orçamento!</legend>
@@ -38,15 +38,15 @@
 
                     <label for="services">Serviços:</label>
                     <select name="services_select" id="services_select" multiple size="6">
-                        <optgroup label="Lavagem">
+                        <optgroup label="Lavagem" class="lavagemSelect">
                             <option value="padrao">*Lavagem:* Padrão</option>
                             <option value="premium">*Lavagem:* Premium</option>
                         </optgroup>
-                        <optgroup label="Polimento">
+                        <optgroup label="Polimento" class="polimentoSelect">
                             <option value="standart">*Polimento:* Standart</option>
                             <option value="special">*Polimento:* Special</option>
                         </optgroup>
-                        <optgroup label="Vitrificação">
+                        <optgroup label="Vitrificação" class="vitriSelect">
                             <!--da pra trocar por input checkbox-->
                             <option value="normal">*Vitrificação:* Normal</option>
                             <option value="deluxe">*Vitrificação:* Deluxe</option>
