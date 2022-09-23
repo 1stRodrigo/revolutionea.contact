@@ -17,8 +17,8 @@ document.querySelector('#submit').addEventListener('touchstart', function() {
     
    /*let url = "https://api.whatsapp.com/send?phone=5519987164384&text=Bem vindo a Revolution -->> %0A Qual é o seu nome? %0A " + cliente + " %0A Qual o seu telefone ?%0A" + 
    telefone + "%0A Qual o seu endereço %0A "+ endereco +" %0A Quais serviços você precisa? %0A "+ opcoes +""; */
-   let url = "https://api.whatsapp.com/send?phone=5519987164384&text=_Olá, seja bem vindo a *Revolution EA*_ %0A%0ANós agradecemos seu contato *" + cliente + "*! %0ARelizar um bom serviço à você é a nossa prioridade. Iremos te retornar o quanto antes!%0A---------------------------------------%0A Confira os dados abaixo: %0A---------------------------------------%0A *Telefone:* %0A" + telefone + "%0A%0A*Endereço:*%0A" + endereco + " %0A%0A*Serviços:*%0A" + breakLineOpcoes + ". %0A";
-   
+   let url = "https://api.whatsapp.com/send?phone=5519987164384&text=_Olá, seja bem vindo a *Revolution EA*_ %0A%0ANós agradecemos seu contato *" + cliente + "*! %0A%0ARelizar um bom serviço à você é a nossa prioridade. Iremos te retornar o quanto antes!%0A---------------------------------------%0A Confira os dados abaixo: %0A---------------------------------------%0A%0A*Telefone:* %0A" + telefone + "%0A%0A*Endereço:*%0A" + endereco + " %0A%0A*Serviços:*%0A" + breakLineOpcoes + ". %0A";
+
    window.open(url);
 });
 
@@ -59,7 +59,7 @@ document.querySelector('#submit').addEventListener('click', function() {
     document.getElementById('seção').innerHTML = valueOpcoes;*/
     //var opcoes = [...services.selectedOptions].map(Option => Option.text);
     
-    let url = "https://api.whatsapp.com/send?phone=5519987164384&text=_Olá, seja bem vindo a *Revolution EA*_ %0A%0ANós agradecemos seu contato *" + cliente + "*! %0ARelizar um bom serviço à você é a nossa prioridade. Iremos te retornar o quanto antes!%0A---------------------------------------%0A Confira os dados abaixo: %0A---------------------------------------%0A *Telefone:* %0A" + telefone + "%0A%0A*Endereço:*%0A" + endereco + " %0A%0A*Serviços:*%0A" + breakLineOpcoes + ". %0A";
+    let url = "https://api.whatsapp.com/send?phone=5519987164384&text=_Olá, seja bem vindo a *Revolution EA*_ %0A%0ANós agradecemos seu contato *" + cliente + "*! %0A%0ARelizar um bom serviço à você é a nossa prioridade. Iremos te retornar o quanto antes!%0A---------------------------------------%0A Confira os dados abaixo: %0A---------------------------------------%0A%0A*Telefone:* %0A" + telefone + "%0A%0A*Endereço:*%0A" + endereco + " %0A%0A*Serviços:*%0A" + breakLineOpcoes + ". %0A";
    
    window.open(url);
 });
