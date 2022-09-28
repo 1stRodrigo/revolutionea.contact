@@ -53,7 +53,7 @@ for ( field of fields) {
 
 
 function sendMessage() {
-    var cliente = document.querySelector('#nomefull').value;
+    let cliente = document.querySelector('#nomefull').value;
     let telefone = document.querySelector('#telefone').value;
     let endereco = document.querySelector('#endereço').value;
     var services = document.querySelector('#services_select');
@@ -61,14 +61,12 @@ function sendMessage() {
     const textOpcoes = Array.from(services.selectedOptions).map(e => e.text);
 
     const breakLineOpcoes =  textOpcoes
-    if ( cliente.lastIndexOf(' ')) {
-        cliente.slice(0, cliente.length = -1)
-    }
-
-    console.log("Executando função sendMessage")
+    //Deletar espaço desnecessário da string Cliente
+    clienteTrim = cliente.trim()
+    console.log("Sending Message")
     
     
-    let url = "https://api.whatsapp.com/send?phone=5519987164384&text=_Olá, seja bem vindo a *Revolution EA*_ %0A%0ANós agradecemos seu contato *" + cliente + "*! %0A%0ARelizar um bom serviço à você é a nossa prioridade. Iremos te retornar o quanto antes!%0A---------------------------------------%0A Confira os dados abaixo: %0A---------------------------------------%0A%0A*Telefone:* %0A" + telefone + "%0A%0A*Endereço:*%0A" + endereco + " %0A%0A*Serviços:*%0A" + breakLineOpcoes + ". %0A";
+    let url = "https://api.whatsapp.com/send?phone=5519987164384&text=_Olá, seja bem vindo a *Revolution EA*_ %0A%0ANós agradecemos seu contato *" + clienteTrim + "*! %0A%0ARelizar um bom serviço à você é a nossa prioridade. Iremos te retornar o quanto antes!%0A---------------------------------------%0A Confira os dados abaixo: %0A---------------------------------------%0A%0A*Telefone:* %0A" + telefone + "%0A%0A*Endereço:*%0A" + endereco + " %0A%0A*Serviços:*%0A" + breakLineOpcoes + ". %0A";
 
    
    window.open(url);
