@@ -7,6 +7,7 @@
 :root {
     --corbackground: #000000b3;
     --fontpadrao: 'Montserrat', sans-serif;
+    --theme: #06bff7
 }
 
 
@@ -38,12 +39,12 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #27ae60; 
+    background: #06bff7; 
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #f7f7f7; 
+    background: #02556e; 
 }
 
 
@@ -66,7 +67,7 @@ body {
 
 /*==========HEADER==========*/
 header {
-    margin: 0 auto;
+    margin: 1rem auto;
     text-align: center;
     font-family: var(--fontpadrao);
 }
