@@ -27,17 +27,17 @@
                     <legend>Solicite já o seu orçamento!</legend>
 
                     <label for="nomefull">Nome Completo:</label>
-                    <input type="text" id="nomefull">
+                    <input type="text" id="nomefull" required>
 
                     <label for="telefone">Telefone:</label>
-                    <input type="tel" id="telefone" name="phone" placeholder="(00) 00000-0000" title="Verifique o telefone digitado. Ex: (00) 00000-0000">
+                    <input type="tel" id="telefone" name="phone" required placeholder="(00) 00000-0000" title="Verifique o telefone digitado. Ex: (00) 00000-0000">
 
                     <label for="address" id="address">Endereço:</label>
-                    <input type="text" id="endereço">
+                    <input type="text" id="endereço" required>
                     <!--aqui vai ser uma barra de pesquisa incorporada do google maps/ ou apenas um campo de texto-->
 
                     <label for="services">Serviços:</label>
-                    <select name="services_select" id="services_select" multiple size="6">
+                    <select name="services_select" id="services_select" multiple size="6" required>
                         <optgroup label="Lavagem" class="lavagemSelect">
                             <option value="padrao">*Lavagem:* Padrão</option>
                             <option value="premium">*Lavagem:* Premium</option>
