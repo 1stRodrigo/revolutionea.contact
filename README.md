@@ -11,9 +11,8 @@ Aplicação Web que manda uma mensagem personalizada no Whatsapp com o pedido do
 </p>
 
 <div align="center" >
-  <img src="./git/gif/RevolutionEA_solicitandoOrçamento1.gif" alt="demo-web" height="425">
   <img src="./git/gif/RevolutionEA_mensagemWhatsapp.gif" alt="demo-web" height="425">
-  <img src="./github/AppGobarber.gif" alt="demo-mobile" height="425">
+  <img src="./git/gif/RevolutionEA_solicitandoOrçamento1.gif" alt="demo-web" height="425">
 </div>
 
 ---
@@ -32,13 +31,13 @@ Aplicação Web que manda uma mensagem personalizada no Whatsapp com o pedido do
 
 This project was developed with the following technologies:
 
-- ✔️ JavaScript
+- ✔️ JavaScript - Funcionalidades e testes de verificação
 
-- ✔️ HTML
+- ✔️ HTML - Marcação de texto
 
-- ✔️ CSS
+- ✔️ CSS - Estilização
 
-- ✔️ Media Query (CSS)
+- ✔️ Media Query (CSS) - Usado para responsivo mobile
 
 ---
 
