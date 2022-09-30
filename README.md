@@ -41,5 +41,6 @@ This project was developed with the following technologies:
 - ✔️ Media Query (CSS)
 
 ---
-Made by Rodrigo Oliveira. 
- -> [Veja o meu linkedin](https://www.linkedin.com/in/rodrigo-oliveira-656270236/)
+
+Made by Rodrigo Oliveira.
+-> [Veja o meu linkedin](https://www.linkedin.com/in/rodrigo-oliveira-656270236/)
