@@ -12,7 +12,7 @@ Aplicação Web que manda uma mensagem personalizada no Whatsapp com o pedido do
 
 <div align="center" >
   <img src="./git/gif/RevolutionEA_mensagemWhatsapp.gif" alt="demo-web" height="425">
-  <img src="./git/gif/RevolutionEA_solicitandoOrçamento1.gif" alt="demo-web" height="425">
+  <img src="./git/gif/RevolutionEA_solicitandoOrçamento2.gif" alt="demo-web" height="425">
 </div>
 
 ---
